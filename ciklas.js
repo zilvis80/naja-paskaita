@@ -1,9 +1,9 @@
 let i = 0;
 
-while (i < 20) {
-  i++;
-  console.log(i);
-}
+// while (i < 20) {
+//   i++;
+//   console.log(i);
+// }
 
 while (i < 10) {
   if (i % 2 === 0) {
@@ -14,34 +14,34 @@ while (i < 10) {
   }
   i++;
 }
-while (i < 21) {
-  if (1 % 3 === 0) {
-    console.log('skaicius $(i) dalinasi is 3');
-  } else {
-    console.log(i);
-  }
-  i++;
-}
+// while (i < 21) {
+//   if (1 % 3 === 0) {
+//     console.log('skaicius $(i) dalinasi is 3');
+//   } else {
+//     console.log(i);
+//   }
+//   i++;
+// }
 
-i = 1;
+// i = 1;
 
-while (true) {
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log(i);
-    break;
-  }
-  i++;
-}
+// while (true) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log(i);
+//     break;
+//   }
+//   i++;
+// }
 
-let suma = 0;
-while (i < 31) {
-  if (i % 2 === 0) {
-    suma += i; //tas pats kas 'suma = suma + i'
-    console.log(suma);
-  }
-  i++;
-}
-console.log(suma);
+// let suma = 0;
+// while (i < 31) {
+//   if (i % 2 === 0) {
+//     suma += i; //tas pats kas 'suma = suma + i'
+//     console.log(suma);
+//   }
+//   i++;
+// }
+// console.log(suma);
 
 let skaicius = 1;
 i = 0;
